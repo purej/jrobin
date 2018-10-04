@@ -1,17 +1,15 @@
 
 <h1><img src="https://cloud.githubusercontent.com/assets/13910123/9427485/e1fecaf8-4980-11e5-86eb-905b762092b8.png"/> JRobin</h1>
 
-##Features
-
 JRobin is a 100% pure java implementation of RRDTool's functionality. RRDtool is the OpenSource industry standard, high performance data logging and graphing system for time series data.
 
-Check out the extensive documentation under (../blob/master/doc) or the [RRDTool website](https://oss.oetiker.ch/rrdtool/).
+Check out the extensive documentation under [/doc](../blob/master/doc) or the [RRDTool website](https://oss.oetiker.ch/rrdtool/).
 
 This fork provides support for Java 1.8 and higher (tested with JDK 11), as the com.sun.* dependencies have been removed.
 
-##Requisites
+### Requisites
 
-  * Java 1.8+
+  * Java 1.8 or higher
 
 Maven users just need to add the following dependency:
 
@@ -23,3 +21,6 @@ Maven users just need to add the following dependency:
   </dependency>
 ```
 
+## Examples
+![e1](/../master/doc/images/gallery/graph1.png?raw=true)
+![e2](/../master/doc/images/gallery/demo12.png?raw=true)
