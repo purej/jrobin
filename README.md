@@ -22,5 +22,16 @@ Maven users just need to add the following dependency:
 ```
 
 ## Examples
-![e1](/../master/doc/images/gallery/graph1.png?raw=true)
-![e2](/../master/doc/images/gallery/demo12.png?raw=true)
+![example](/../master/doc/images/gallery/graph1.png?raw=true)
+![example](/../master/doc/images/gallery/demo12.png?raw=true)
+![example](/../master/doc/images/gallery/complexdemo2.png?raw=true)
+![example](/../master/doc/images/gallery/demo.png?raw=true)
+![example](/../master/doc/images/gallery/demo2.png?raw=true)
+![example](/../master/doc/images/gallery/demo1.png?raw=true)
+![example](/../master/doc/images/gallery/demo4.png?raw=true)
+![example](/../master/doc/images/gallery/demo7.png?raw=true)
+![example](/../master/doc/images/gallery/demo9.png?raw=true)
+![example](/../master/doc/images/gallery/plottable.png?raw=true)
+![example](/../master/doc/images/gallery/plottable3.png?raw=true)
+![example](/../master/doc/images/gallery/stress.png?raw=true)
+![example](/../master/doc/images/gallery/zarama1.png?raw=true)
