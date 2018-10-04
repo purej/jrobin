@@ -23,15 +23,11 @@ import java.io.IOException;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
 
-
-import sun.nio.ch.DirectBuffer;
-
 /**
  * JRobin backend which is used to store RRD data to ordinary disk files by
  * using fast java.nio.* package. This is the default backend engine since
  * JRobin 1.4.0.
  */
-@SuppressWarnings("restriction")
 public class RrdNioBackend extends RrdFileBackend {
     private final SyncManager m_syncManager;
     private MappedByteBuffer m_byteBuffer = null;
@@ -105,9 +101,11 @@ public class RrdNioBackend extends RrdFileBackend {
             stopSchedule();
         }
         if (m_byteBuffer != null) {
-            if (m_byteBuffer instanceof DirectBuffer) {
-                ((DirectBuffer) m_byteBuffer).cleaner().clean();
-            }
+        	// Removed explicit close as sun.nio package is not availabe in java 11 anymore
+        	// This should not be a problem as the parent file will be closed anyway right away gc does the rest
+            //if (m_byteBuffer instanceof DirectBuffer) {
+        	//    ((DirectBuffer) m_byteBuffer).cleaner().clean();
+        	//}
             m_byteBuffer = null;
         }
     }
