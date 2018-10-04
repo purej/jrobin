@@ -3,7 +3,7 @@
 
 JRobin is a 100% pure java implementation of RRDTool's functionality. RRDtool is the OpenSource industry standard, high performance data logging and graphing system for time series data.
 
-Check out the extensive documentation under [/doc](/master/doc) or the [RRDTool website](https://oss.oetiker.ch/rrdtool/).
+Check out the extensive documentation under /doc or the [RRDTool website](https://oss.oetiker.ch/rrdtool/).
 
 This fork provides support for Java 1.8 and higher (tested with JDK 11), as the com.sun.* dependencies have been removed.
 
