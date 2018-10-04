@@ -1,5 +1,5 @@
 
-<h1><img src="https://cloud.githubusercontent.com/assets/13910123/9427485/e1fecaf8-4980-11e5-86eb-905b762092b8.png"/> PureJ JRobin</h1>
+<h1><img src="https://cloud.githubusercontent.com/assets/13910123/9427485/e1fecaf8-4980-11e5-86eb-905b762092b8.png"/> JRobin</h1>
 
 ##Features
 
@@ -7,7 +7,7 @@ JRobin is a 100% pure java implementation of RRDTool's functionality. RRDtool is
 
 Check out the extensive documentation under (../blob/master/doc) or the [RRDTool website](https://oss.oetiker.ch/rrdtool/).
 
-This fork provides Java 1.8 and higher (tested with JDK 11), as the com.sun.* dependencies have been removed.
+This fork provides support for Java 1.8 and higher (tested with JDK 11), as the com.sun.* dependencies have been removed.
 
 ##Requisites
 
