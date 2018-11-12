@@ -17,7 +17,7 @@ Maven users just need to add the following dependency:
   <dependency>
     <groupId>com.purej</groupId>
     <artifactId>jrobin</artifactId>
-    <version>1.7.0</version>
+    <version>1.7.1</version>
   </dependency>
 ```
 
